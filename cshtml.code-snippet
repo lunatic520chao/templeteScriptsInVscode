@@ -1,0 +1,42 @@
+{
+	"div in cshtml":{
+		"prefix": "div-asp",
+		"body": [
+			"<div class=\"form-group\">",
+			"\t<label asp-for=\"$1\" class=\"control-label\"></label>",
+			"\t<input asp-for=\"$1\" class=\"form-control\" />",
+			"\t<span asp-validation-for=\"$1\" class=\"text-danger\"></span>",
+			"</div>"
+		],
+		"description": "div for asp tips"
+	},
+	"table in cshtml":{
+		"prefix": "<table",
+		"body": [
+			"<table border=\"1\" >",
+			"<tr>",
+			"\t<td>",
+			"\t\t$1",
+			"\t</td>",
+			"</tr>",
+			"</table>"
+		],
+		"description": "table tips"
+	},
+	"import js source in cshtml": {
+		"prefix": "importjs_file",
+		"body": [
+			"<script src=\"$1.js\" type=\"text/javascript\"></script>"
+		],
+		"description": "import js source in cshtml"
+	},
+	"import js statement in cshtml": {
+		"prefix": "importjs_state",
+		"body": [
+			"<script  type=\"text/javascript\">",
+			"\t$1",
+			"</script>"
+		],
+		"description": "import js source in html"
+	}
+}
